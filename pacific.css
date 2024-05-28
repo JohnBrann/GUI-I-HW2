@@ -1,0 +1,119 @@
+/*
+File: pacific.css
+      This file handles the designs for my website
+GUI Assignment 2: We had to replicate a webpage given starter css code
+
+John Brann, UMass Lowell Computer Science, john_brann@student.uml.edu
+Copyright (c) 2024 by John. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by JB on May 28, 2024 at 7:00 PM
+*/
+
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+
+#wrapper {
+	min-width: 600px;
+	width: 80%;
+	display: grid;
+	grid-template-areas: /* this is a grid type pattern used to organize where everythign goes */
+		"header header header"
+		"nav main resort"
+		"nav footer footer";	
+	margin-top: 1.5px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+#wrapper header {
+	background: url("sunset.jpg") top right no-repeat, rgb(0, 0, 51);
+	color: #eeecec;
+	grid-area: header;
+	padding-left: 25;
+	text-align: left;
+	
+}
+
+nav {
+	background-color: #9cd4f2;
+	grid-area: nav;
+	list-style-type: none;
+}
+
+#wrapper nav ul li a {
+	color: #081278;
+	font-weight: 1000;
+	list-style-type: none;
+	text-decoration: none;
+	font-size: 1.5rem;
+	margin-bottom: 2px;
+}
+
+nav ul li {
+	list-style-type: none;
+	font-size: 1.3em;
+	margin-bottom: 2px;
+}
+
+body {
+	background-image: url("ptrbackground.jpg");
+	margin: 0 1.5em;
+}
+
+#content {
+	background-color: #eeecec;
+	grid-area: main;
+	grid-column: 2/4;
+	padding-left: 2em;
+}
+
+img {
+	float: left;
+	padding-right: 1.5em;
+}
+
+h2 {
+	color: #3399CC;
+	font-size: 2em;
+}
+h1, h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+#content ul {
+	list-style-image: url("marker.gif");
+	color: #383739;
+}
+
+#contact {
+	color: #383739;
+	margin-bottom: 1.5em;
+}
+
+p {
+	color: #383739;
+}
+
+.resort {
+	font-weight: bold;
+	color: rgb(113, 153, 196);
+	font-weight: 800;
+}
+
+footer {
+	font-style: italic;
+	color: #383739;
+	font-size: 1;
+	grid-area: footer;
+	background-color: #eeecec;
+	padding-left: 6px;
+	padding-bottom: 6px; 
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+dt {
+	color: #000033;
+}
+
