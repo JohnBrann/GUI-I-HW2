@@ -59,7 +59,7 @@ nav ul li {
 
 body {
 	background-image: url("ptrbackground.jpg");
-	margin: 0 1.5em;
+	margin-right: 1.5em;
 }
 
 #content {
@@ -71,7 +71,7 @@ body {
 
 img {
 	float: left;
-	padding-right: 1.5em;
+	padding-right: 2em;
 }
 
 h2 {
